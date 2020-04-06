@@ -1,0 +1,114 @@
+body {
+  /* The background image */
+  background-image: url("background.jpg");
+
+  /* Set a specified height, or the minimum height for the background image */
+  min-height: 500px;
+
+  /* Set background image to fixed (don't scroll along with the page) */
+  background-attachment: fixed;
+
+  /* Center the background image */
+  background-position: center;
+
+  /* Set the background image to no repeat */
+  background-repeat: no-repeat;
+
+  /* Scale the background image to be as large as possible */
+  background-size: cover;
+}
+
+html {
+  font-family: "Indie Flower", cursive;
+  font-family: "Spirax", cursive;
+  padding: 20px 20px;
+}
+
+.logo-image {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.card {
+  box-shadow: 5px 5px gray;
+}
+
+.jum {
+  display: flex;
+  padding-top: 20px;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+.jumbotron {
+  text-align: center;
+  height: 600px;
+  width: 100%;
+}
+
+.col-md-4 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* equal card height */
+.row-equal > div[class*="col-"] {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.row-equal .card {
+  width: 100%;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner > .row-equal.active,
+.carousel-inner > .row-equal.next,
+.carousel-inner > .row-equal.prev {
+  display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner > .row-equal.active.left,
+.carousel-inner > .row-equal.active.right {
+  opacity: 0.5;
+  display: flex;
+}
+
+/* control image height */
+.card-img-top-250 {
+  max-height: 250px;
+  overflow: hidden;
+}
+
+.foot {
+  border-style: solid;
+  background-color: white;
+  color: rosybrown;
+}
+
+.social {
+  padding-left: 60px;
+}
+.fa {
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  color: black;
+  background: aliceblue;
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: rosybrown;
+  color: white;
+}
