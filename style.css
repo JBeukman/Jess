@@ -53,6 +53,9 @@ ul {
   width: 100%;
 }
 
+hr {
+  width: 50%;
+}
 .card {
   box-shadow: 1px 1px gray;
   display: flex;
@@ -69,7 +72,7 @@ ul {
 
 .col-md-3 {
   padding-top: 20px;
-  height: 700px;
+  height: 800px;
   width: 200px;
 }
 
