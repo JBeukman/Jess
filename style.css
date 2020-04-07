@@ -57,15 +57,19 @@ ul {
   box-shadow: 1px 1px gray;
   display: flex;
   width: 100px;
+  padding-bottom: 20px;
   
 }
 
-.card-img-top {
-  border: 1px solid black;
-} 
+.btn {
+ color: white;
+ background-color: rosybrown;
+ margin-top: auto;
+}
+
 .col-md-3 {
   padding-top: 20px;
-  height: 600px;
+  height: 700px;
   width: 200px;
 }
 
