@@ -61,6 +61,7 @@ hr {
 .card {
   box-shadow: 1px 1px gray;
   display: flex;
+  height: auto;
   width: 100px;
   padding-bottom: 20px;
   
@@ -68,7 +69,7 @@ hr {
 
 .btn {
  color: white;
- background-color: #b76e79;
+ background-color: teal;
  margin-top: auto;
 }
 
@@ -82,7 +83,7 @@ hr {
 /* equal card height */
 .row-equal > div[class*="col-"] {
   display: flex;
-  flex: 1 0 auto;
+  min-height: auto;
 }
 
 .row-equal .card {
