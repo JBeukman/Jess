@@ -30,6 +30,7 @@ h2 {
 
 ul {
   font-family: 'Bad Script', cursive;
+  padding-top: 20px;
 }
 
 .logo-image {
@@ -55,6 +56,7 @@ ul {
 
 hr {
   width: 50%;
+  background-color: black;
 }
 .card {
   box-shadow: 1px 1px gray;
@@ -72,7 +74,7 @@ hr {
 
 .col-md-3 {
   padding-top: 20px;
-  height: 800px;
+  min-height: 200px;
   width: 200px;
 }
 
