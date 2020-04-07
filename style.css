@@ -1,6 +1,6 @@
 body {
   /* The background image */
-  background-image: url("background.jpg");
+  background-image: url("./assets/background.jpg");
 
   /* Set a specified height, or the minimum height for the background image */
   min-height: 500px;
@@ -24,6 +24,14 @@ html {
   padding: 20px 20px;
 }
 
+h2 {
+  font-family: 'Courgette', cursive;
+}
+
+ul {
+  font-family: 'Bad Script', cursive;
+}
+
 .logo-image {
   width: fit-content;
   height: fit-content;
@@ -31,9 +39,7 @@ html {
   overflow: hidden;
 }
 
-.card {
-  box-shadow: 5px 5px gray;
-}
+
 
 .jum {
   display: flex;
@@ -47,10 +53,22 @@ html {
   width: 100%;
 }
 
-.col-md-4 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.card {
+  box-shadow: 1px 1px gray;
+  display: flex;
+  width: 100px;
+  
 }
+
+.card-img-top {
+  border: 1px solid black;
+} 
+.col-md-3 {
+  padding-top: 20px;
+  height: 600px;
+  width: 200px;
+}
+
 
 /* equal card height */
 .row-equal > div[class*="col-"] {
@@ -82,15 +100,18 @@ html {
   overflow: hidden;
 }
 
+footer {
+  padding-top: 50px;
+ text-align: center;
+}
 .foot {
   border-style: solid;
   background-color: white;
   color: rosybrown;
+  justify-items: center;
 }
 
-.social {
-  padding-left: 60px;
-}
+
 .fa {
   font-size: 30px;
   width: 30px;
